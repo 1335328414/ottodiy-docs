@@ -12,13 +12,13 @@ export const ImgWithBaseUrl = ({src, alt, width}) => (
 
 # 程序烧录
 
-在这里，您可以找到 Otto DIY 机器人相关的所有程序文件和源代码链接。
+在这里，您可以找到 闪猫科技AI桌面DIY机器人相关的所有程序文件和源代码链接。
 
 ## 源代码仓库
 
-### ESP32+AI 版本源代码
+### ESP32+AI 版本源代码（可接入小智AI服务）
 
-- **GitHub 仓库**：[小智 ESP32 AI 机器人源码](https://github.com/txp666/xiaozhi-esp32)
+- **GitHub 仓库**：[ESP32 AI 机器人源码](https://github.com/txp666/xiaozhi-esp32)
 - **功能**：包含 Wi-Fi 连接、语音识别、AI 对话等全部功能
 - **适用**：对开发和定制有兴趣的用户
 
@@ -66,7 +66,7 @@ esptool.py --chip esp32s3 merge_bin -o merged-flash.bin --flash_mode dio --flash
 
 1. 下载最新版本的固件文件（.bin）
 2. 下载并安装烧录工具
-3. 将 Otto 通过 USB 连接到电脑（<span style={{color: 'red'}}><strong>注意，如果 ESP32 是第一次烧录程序，打开开关前需要按住 BOOT 按钮！！！！！！！！</strong></span>）
+3. 将机器人通过 USB 连接到电脑（<span style={{color: 'red'}}><strong>注意，如果 ESP32 是第一次烧录程序，打开开关前需要按住 BOOT 按钮！！！！！！！！</strong></span>）
 4. 启动烧录工具，选择正确的 COM 端口
 5. 按照以下参数设置烧录：
    - 波特率：921600
